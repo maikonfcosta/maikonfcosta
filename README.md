@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 1993<br>📚 I'm currently learning SOFTWARE DEVELOPER<br>🎯 Goals: Learning JavaScript<br>🎲 Fun fact: I like play Valorant</p>
+<p align="left">✨ Creating bugs since 1993<br>📚 I'm currently learning JavaScipt and Python<br>🎯 Goals: Software Developer<br>🎲 Fun fact: I like play Valorant</p>
 
 ###
 
