@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Maikon</h1>
 <h3 align="center">I'm RPA developer at Robert Bosch from Brazil</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=maikonfcosta&label=Profile%20views&color=0e75b6&style=plastic" alt="maikonfcosta" /> </p>
-
-<p align="left"> <a href="https://twitter.com/maikonfcosta" target="blank"><img src="https://img.shields.io/twitter/follow/maikonfcosta?logo=twitter&style=for-the-badge" alt="maikonfcosta" /></a> </p>
-
 - 🔭 I’m currently working on **RPA Projects**
 
 - 🌱 I’m currently learning **Software Develop**
@@ -29,3 +25,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=maikonfcosta&show_icons=true&theme=dracula&locale=en&layout=compact" alt="maikonfcosta" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=dracula&locale=en" alt="maikonfcosta" /></p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=maikonfcosta&label=Profile%20views&color=0e75b6&style=plastic" alt="maikonfcosta" /> </p>
