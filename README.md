@@ -24,6 +24,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=maikonfcosta&show_icons=true&theme=dracula&locale=en&layout=compact" alt="maikonfcosta" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=dracula&locale=en" alt="maikonfcosta" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=dracula&locale=en" alt="maikonfcosta"  height=100%/></p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=maikonfcosta&label=Profile%20views&color=0e75b6&style=plastic" alt="maikonfcosta" /> </p>
