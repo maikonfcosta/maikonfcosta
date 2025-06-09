@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Maikon</h1>
-<h3 align="center">I'm RPA developer at Robert Bosch from Brazil</h3>
+<h3 align="center">I'm RPA developer from Brazil</h3>
 
 - 🔭 I’m currently working on **RPA Projects**
 
@@ -9,7 +9,7 @@
 
 - 📄 Know about my experiences [https://cutt.ly/vLXQows](https://cutt.ly/vLXQows)
 
-- ⚡ Fun fact **I like play Valorant and watch Series**
+- ⚡ Fun fact **I like play Valorant, watch Series and love boardgames**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
