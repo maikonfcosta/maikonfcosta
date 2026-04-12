@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Maikon%20Costa&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=RPA%20Developer%20%7C%20QA%20Engineer%20%7C%20Brazil%20%F0%9F%87%A7%F0%9F%87%B7&descAlignY=55&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Maikon%20Costa&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=RPA%20Developer%20%7C%20QA%20Analyst%20%7C%20Brazil%20%F0%9F%87%A7%F0%9F%87%B7&descAlignY=55&descSize=16" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=650&lines=RPA+Developer+%F0%9F%A4%96;QA+Engineer+%F0%9F%94%8D;Automating+the+boring+stuff+%E2%9A%A1;Always+learning+new+things+%F0%9F%8C%B1;Valorant+%7C+S%C3%A9ries+%7C+Boardgames+%F0%9F%8E%AE" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=650&lines=RPA+Developer+%F0%9F%A4%96;QA+Analyst+%F0%9F%94%8D;Manual+%26+Automated+Testing;Automating+the+boring+stuff+%E2%9A%A1;Valorant+%7C+S%C3%A9ries+%7C+Boardgames+%F0%9F%8E%AE" alt="Typing SVG" />
   </a>
 </div>
 
@@ -15,19 +15,24 @@
 ```python
 class MaikonCosta:
     def __init__(self):
-        self.name      = "Maikon Costa"
-        self.roles     = ["RPA Developer", "QA Engineer"]
-        self.location  = "Brazil 🇧🇷"
-        self.email     = "maikonfcosta@gmail.com"
+        self.name       = "Maikon Costa"
+        self.roles      = ["RPA Developer", "QA Analyst"]
+        self.company    = "Fluxo"
+        self.location   = "Brazil 🇧🇷"
+        self.email      = "maikonfcosta@gmail.com"
 
     @property
     def skills(self):
         return {
-            "rpa":        ["Process Automation", "Web Scraping", "Bots"],
-            "qa":         ["Test Planning", "Manual Testing", "Test Automation"],
-            "languages":  ["Python", "Java", "JavaScript", "PHP"],
-            "web":        ["HTML5", "CSS3"],
-            "design":     ["Photoshop", "Illustrator"],
+            "qa": {
+                "type":  ["Manual Testing", "Test Automation"],
+                "tools": ["Selenium", "Cypress", "Playwright",
+                          "Azure Test Plans", "Datadog", "Locust"],
+            },
+            "rpa":       ["Process Automation", "Web Scraping", "Bots"],
+            "languages": ["Python", "Java", "JavaScript", "PHP"],
+            "web":       ["HTML5", "CSS3"],
+            "design":    ["Photoshop", "Illustrator"],
         }
 
     @property
@@ -41,22 +46,23 @@ class MaikonCosta:
 
 <div align="center">
 
+### QA & Testes
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Azure Test Plans](https://img.shields.io/badge/Azure%20Test%20Plans-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Locust](https://img.shields.io/badge/Locust-00B39F?style=for-the-badge&logo=python&logoColor=white)
+
 ### Linguagens
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-### Web
+### Web & Design
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### QA & Testes
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![JIRA](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
-### Design
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 
