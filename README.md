@@ -72,19 +72,13 @@ class MaikonCosta:
 
 ## Estatísticas do GitHub
 
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maikonfcosta&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true" />
-      </td>
-    </tr>
-  </table>
+<p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maikonfcosta&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true" />
+</p>
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=maikonfcosta&theme=midnight-purple&hide_border=true&locale=pt_BR" alt="maikonfcosta streak"/>
-</div>
+</p>
 
 ---
 
