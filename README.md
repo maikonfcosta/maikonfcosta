@@ -45,9 +45,9 @@ Current Quests:
 ## 🏆 Tela de Fim de Partida (Player Stats)
 
 <div align="center">
-  <!-- Troféus Dinâmicos -->
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=maikonfcosta&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+  <!-- Streak Stats (Combo Atual) -->
+  <a href="https://github.com/maikonfcosta">
+    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=maikonfcosta&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
   <br><br>
   
