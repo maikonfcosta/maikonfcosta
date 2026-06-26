@@ -5,6 +5,30 @@
 
 ---
 
+<div align="center">
+  <a href="https://www.linkedin.com/in/maikonfcosta/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.instagram.com/maikonfcosta/" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+  </a>
+  <a href="https://discordapp.com/users/251440082895110145" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank">
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <!-- SPOTIFY NOW PLAYING PLACEHOLDER -->
+  <!-- Você vai substituir a URL abaixo pelo link que vou te ensinar a gerar -->
+  <a href="https://open.spotify.com/user/seu_usuario">
+    <img src="https://novatbn.github.io/novatbn/api/spotify?theme=dark" alt="Spotify Now Playing" />
+  </a>
+</div>
+
+---
+
 <!-- QUEST LOG -->
 ## 📜 Quest Log (Active Missions)
 
@@ -56,6 +80,17 @@ Current Quests:
   
   <!-- Top Linguagens -->
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maikonfcosta&layout=compact&theme=tokyonight&hide_border=true" />
+</div>
+
+<br>
+
+<!-- SNAKE GAME -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maikonfcosta/maikonfcosta/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maikonfcosta/maikonfcosta/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/maikonfcosta/maikonfcosta/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <br>
