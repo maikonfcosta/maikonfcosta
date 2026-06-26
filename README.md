@@ -20,10 +20,8 @@
 <br>
 
 <div align="center">
-  <!-- SPOTIFY NOW PLAYING PLACEHOLDER -->
-  <!-- Você vai substituir a URL abaixo pelo link que vou te ensinar a gerar -->
-  <a href="https://open.spotify.com/user/seu_usuario">
-    <img src="https://novatbn.github.io/novatbn/api/spotify?theme=dark" alt="Spotify Now Playing" />
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=maikonfcosta&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=maikonfcosta&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false">
   </a>
 </div>
 
