@@ -40,9 +40,13 @@ Previous Class: "RPA Developer" (Bosch, BRQ, Unimed)
   [x] Bot that cut credit-life insurance consolidation from 7 days to 1
   [x] Automation Anywhere certified · UiPath · Power Automate · Python
 
+Side Quests: "Open-source QA projects" (one every two weeks)
+  [x] playwright-reference-suite: Conduit in Docker, 17 critical tests in ~10 s on every push, 59 nightly across 3 browsers
+  [x] failure-classifier: tells product bug from outage from outdated test; 20 of 22 real failures right, 0 wrong with high confidence
+  [ ] ai-ci-triage: LLM comments the likely cause on the PR; the gate stays deterministic
+
 Current Quest:
   [ ] ISTQB CTFL 4.0
-  [ ] Open-source QA projects (see pinned repos)
 ```
 
 ---
