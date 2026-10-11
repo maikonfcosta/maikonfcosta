@@ -1,16 +1,16 @@
 <!-- HEADER / BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Maikon%20Costa&fontSize=50&fontColor=fff&animation=twinkling&desc=Senior%20QA%20%20%E2%9A%94%EF%B8%8F%20%20Test%20Automation%20Engineer&descAlignY=60&descAlign=50" alt="Banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Maikon%20Costa&fontSize=50&fontColor=fff&animation=twinkling&desc=Senior%20QA%20%20%E2%9A%94%EF%B8%8F%20%20Test%20Automation%20Engineer&descAlignY=60&descAlign=50" alt="Maikon Costa — Senior QA and Test Automation Engineer" width="100%" />
 </div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/maikonfcosta/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Maikon Costa on LinkedIn">
   </a>
   <a href="mailto:maikonfcosta@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Maikon Costa">
   </a>
-  <img src="https://img.shields.io/badge/Open%20to-Senior%20QA%20%7C%20QA%20Engineer%20%7C%20RPA%20Developer-2ea44f?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Open%20to-Senior%20QA%20%7C%20QA%20Engineer%20%7C%20RPA%20Developer-2ea44f?style=for-the-badge" alt="Open to Senior QA, QA Engineer and RPA Developer roles">
 </div>
 
 ---
@@ -24,30 +24,44 @@ Until Sep 2026 I was the sole QA across **6 products** at a B2B foreign exchange
 
 ---
 
-## 📜 Quest Log — completed missions
+## 📜 Quest Log
 
-```yaml
-Main Quest: "Build the QA program from zero" (fintech B2B FX, 6 products)
-  [x] ~3,400 automated tests running in CI (Playwright E2E, Vitest, xUnit)
-  [x] Manual execution down to 3.5% of executed tests
-  [x] Escape rate instituted as a KPI: 83% -> 20% sprint over sprint
-  [x] E2E flaky rate: 17.6% peak -> 0% on the critical ring (5 builds in a row)
-  [x] CI gate that let red tests pass: found, fixed, enforced
-  [x] Production errors (Datadog) auto-open deduplicated bugs in Azure DevOps
-  [x] LLM agent that reads the repo code before diagnosing pipeline failures
+### Main quest — build the QA program from zero
 
-Previous Class: "RPA Developer" (Bosch, BRQ, Unimed)
-  [x] Bot that cut credit-life insurance consolidation from 7 days to 1
-  [x] Automation Anywhere certified · UiPath · Power Automate · Python
+B2B foreign exchange fintech, **6 products**, through September 2026.
 
-Side Quests: "Open-source QA projects" (one every two weeks)
-  [x] playwright-reference-suite: Conduit in Docker, 17 critical tests in ~10 s on every push, 59 nightly across 3 browsers
-  [x] failure-classifier: tells product bug from outage from outdated test; 20 of 22 real failures right, 0 wrong with high confidence
-  [ ] ai-ci-triage: LLM comments the likely cause on the PR; the gate stays deterministic
+- [x] ~3,400 automated tests running in CI across Playwright E2E, Vitest and xUnit.
+- [x] Manual execution reduced to **3.5% of executed tests**.
+- [x] Escape rate adopted as a KPI: **83% → 20%** across the reported sprints.
+- [x] E2E flaky rate: **17.6% peak → 0% on the critical ring**, observed over five consecutive builds.
+- [x] Found and fixed a CI gate that allowed failing tests to pass.
+- [x] Production errors from Datadog automatically create deduplicated bugs in Azure DevOps.
+- [x] Built an LLM agent that reads repository code before diagnosing pipeline failures.
 
-Current Quest:
-  [ ] ISTQB CTFL 4.0
-```
+*Measurement context: professional results are self-reported. The 3.5% figure refers to executed tests, rather than total test inventory. Exact measurement dates, execution totals and defect counts behind the escape-rate comparison are not published here. The zero flaky rate applies only to the critical ring and the five observed builds.*
+
+### Previous class — RPA Developer
+
+Bosch · BRQ · Unimed
+
+- [x] Automation reduced credit-life insurance consolidation from **7 days to 1**.
+- [x] Automation Anywhere certified; experience with UiPath, Power Automate and Python.
+
+### Current quest
+
+- [ ] ISTQB CTFL 4.0 — in progress.
+
+---
+
+## 🛠️ Featured Projects — side quests
+
+| Project | What it demonstrates | Status & evidence |
+| :--- | :--- | :--- |
+| [Playwright Reference Suite](https://github.com/maikonfcosta/playwright-reference-suite) | Reproducible Conduit environment in Docker, E2E and API contract tests. 17 critical tests in ~10 s of test execution; 59 tests in the nightly suite across three browsers. | Working reference suite · [Report](https://maikonfcosta.github.io/playwright-reference-suite/) · [Demo](https://github.com/maikonfcosta/playwright-reference-suite/blob/main/docs/demo.gif) |
+| [Failure Classifier](https://github.com/maikonfcosta/failure-classifier) | Deterministic classification of product, environment and test failures. Correct on 20 of 22 failures from controlled breakages, with zero incorrect high-confidence classifications in that dataset. | Public implementation · [Dataset & method](https://github.com/maikonfcosta/failure-classifier#how-well-it-does) · [Demo](https://github.com/maikonfcosta/failure-classifier/blob/main/docs/demo.gif) |
+| [AI CI Triage](https://github.com/maikonfcosta/ai-ci-triage) | Uses failure details, diff and source code to suggest a cause, file and line. Updates the same PR comment; the classifier retains control of the gate. Current implementation uses Groq. | **Preview / demo available** · [PR diagnosis](https://github.com/maikonfcosta/playwright-reference-suite/pull/1#issuecomment-5896070196) · [Evaluation](https://github.com/maikonfcosta/ai-ci-triage/blob/main/eval/results/REVIEW-groq.md) |
+
+*Project measurements apply to the documented workloads and datasets; they are not guarantees for other applications. AI diagnoses are advisory and require review.*
 
 ---
 
@@ -62,17 +76,19 @@ Current Quest:
 | **CI/CD & quality** | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=flat-square&logo=sonarcloud&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 | **Quality practices** | ![Test pyramid](https://img.shields.io/badge/Test%20pyramid-334155?style=flat-square) ![Risk-based testing](https://img.shields.io/badge/Risk--based%20testing-334155?style=flat-square) ![E2E testing](https://img.shields.io/badge/E2E%20testing-334155?style=flat-square) ![API contract testing](https://img.shields.io/badge/API%20contract%20testing-334155?style=flat-square) ![CI quality gates](https://img.shields.io/badge/CI%20quality%20gates-334155?style=flat-square) ![Escape rate](https://img.shields.io/badge/Escape%20rate-334155?style=flat-square) ![Flaky rate](https://img.shields.io/badge/Flaky%20rate-334155?style=flat-square) ![Spec-driven development](https://img.shields.io/badge/Spec--driven%20development-334155?style=flat-square) |
 | **Observability** | ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white) |
-| **AI in QA** | ![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square) ![Groq API](https://img.shields.io/badge/Groq%20API-F55036?style=flat-square) ![Codex](https://img.shields.io/badge/Codex-111111?style=flat-square) ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square) |
-| **RPA (base class)** | ![UiPath](https://img.shields.io/badge/UiPath-FA4616?style=flat-square&logo=uipath&logoColor=white) ![Automation Anywhere](https://img.shields.io/badge/Automation%20Anywhere-FF5A00?style=flat-square) ![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) |
+| **AI-assisted engineering** | ![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-111111?style=flat-square) ![Groq API](https://img.shields.io/badge/Groq%20API-F55036?style=flat-square) ![Codex](https://img.shields.io/badge/Codex-111111?style=flat-square) ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square) |
+| **RPA & workflow automation** | ![UiPath](https://img.shields.io/badge/UiPath-FA4616?style=flat-square&logo=uipath&logoColor=white) ![Automation Anywhere](https://img.shields.io/badge/Automation%20Anywhere-FF5A00?style=flat-square) ![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) |
 | **Certifications** | ![Automation Anywhere — Certified](https://img.shields.io/badge/Automation%20Anywhere%20%E2%80%94%20Certified-FF5A00?style=flat-square) ![ISTQB CTFL 4.0 — In progress](https://img.shields.io/badge/ISTQB%20CTFL%204.0%20%E2%80%94%20In%20progress-2563EB?style=flat-square) |
+
+I use AI assistants to support test creation and review, failure investigation and automation. I validate suggestions against source code and test results; deterministic rules retain control of CI gates.
 
 ---
 
 ## 🏆 Player Stats
 
 <div align="center">
-  <img height="170" src="https://maikon-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://maikon-readme-stats.vercel.app/api/top-langs/?username=maikonfcosta&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://maikon-readme-stats.vercel.app/api?username=maikonfcosta&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub activity statistics for maikonfcosta" />
+  <img height="170" src="https://maikon-readme-stats.vercel.app/api/top-langs/?username=maikonfcosta&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used languages in maikonfcosta repositories" />
 </div>
 
 <br>
