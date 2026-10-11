@@ -1,6 +1,6 @@
 <!-- HEADER / BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Maikon%20Costa&fontSize=50&fontColor=fff&animation=twinkling&desc=Senior%20QA%20%20%E2%9A%94%EF%B8%8F%20%20Test%20Automation%20Engineer&descAlignY=60&descAlign=50" alt="Maikon Costa — Senior QA and Test Automation Engineer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Maikon%20Costa&fontSize=50&fontColor=fff&animation=twinkling&desc=Senior%20QA%20%20%E2%9A%94%EF%B8%8F%20%20Test%20Automation%20Engineer%20%20%7C%20%20RPA%20Developer&descAlignY=60&descAlign=50" alt="Maikon Costa — Senior QA, Test Automation Engineer and RPA Developer" width="100%" />
 </div>
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 ## 🧭 About me
 
-Senior QA and Test Automation Engineer with **8+ years in automation**, first in RPA and now in software quality.
+Senior QA, Test Automation Engineer and **RPA Developer** with **8+ years in automation**, spanning robotic process automation, workflow automation and software quality.
 I build quality programs from scratch and turn them into measurable engineering practice: tests in the pipeline, gates that block only real defects, and numbers instead of opinions.
 
 Until Sep 2026 I was the sole QA across **6 products** at a B2B foreign exchange fintech (Next.js, .NET 8, Python, AI copilot). 🇧🇷 PT native · 🇺🇸 EN B2
