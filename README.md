@@ -32,13 +32,13 @@ B2B foreign exchange fintech, **6 products**, through September 2026.
 
 - [x] ~3,400 automated tests running in CI across Playwright E2E, Vitest and xUnit.
 - [x] Manual execution reduced to **3.5% of executed tests**.
-- [x] Escape rate adopted as a KPI: **83% → 20%** across the reported sprints.
+- [x] Escape rate adopted as a KPI: **83% → 20%** over approximately **four two-week sprints (~8 weeks)**.
 - [x] E2E flaky rate: **17.6% peak → 0% on the critical ring**, observed over five consecutive builds.
 - [x] Found and fixed a CI gate that allowed failing tests to pass.
 - [x] Production errors from Datadog automatically create deduplicated bugs in Azure DevOps.
 - [x] Built an LLM agent that reads repository code before diagnosing pipeline failures.
 
-*Measurement context: professional results are self-reported. The 3.5% figure refers to executed tests, rather than total test inventory. Exact measurement dates, execution totals and defect counts behind the escape-rate comparison are not published here. The zero flaky rate applies only to the critical ring and the five observed builds.*
+*Measurement context: professional results are self-reported. Escape rate = bugs found in production / total defects and bugs found in production and staging (homologation), expressed as a percentage. The improvement took approximately four sprints of about two weeks each; exact calendar dates and defect counts are not published here. The 3.5% manual-execution figure refers to executed tests; measurement dates and total execution counts are unavailable. The zero flaky rate applies only to the critical ring and the five observed builds.*
 
 ### Previous class — RPA Developer
 
