@@ -62,6 +62,7 @@ Bosch · BRQ · Unimed
 | [AI CI Triage](https://github.com/maikonfcosta/ai-ci-triage) | Uses failure details, diff and source code to suggest a cause, file and line. | Updates the same PR comment; classifier retains context across iterations. |
 | [QA Playbook](https://github.com/maikonfcosta/qa-playbook) | Pragmatic engineering playbook covering layer strategy, deterministic data isolation, two-layer bug reports, and CI triage patterns built for real teams. | [Live Playbook](https://maikonfcosta.github.io/qa-playbook/) · Public repository with practical guidance and checklists. |
 | [Synthetic Monitoring](https://github.com/maikonfcosta/synthetic-monitoring) | Headless browser probes executing across 4 live production apps, auditing HTTP 200, anti-white-screen DOM rendering, edge latency SLA and zero console errors with automated double-fault incident management. | Public suite · [Demo](https://github.com/maikonfcosta/synthetic-monitoring/blob/main/docs/demo.gif) · Runs 2x daily in GitHub Actions. |
+| [API Contract Lab](https://github.com/maikonfcosta/api-contract-lab) | Deterministic OpenAPI / Swagger 2.0 contract testing and 24-rule RBAC authorization matrix against Gitea REST API v1. Validates schema drift and RF-03 / BOLA resource possession in under 2 seconds. | Public suite · Dual test rings (@critical < 1s, @full) · CI in GitHub Actions. |
 
 *Project measurements apply to the documented workloads and datasets; they are not guarantees for other applications. AI diagnoses are advisory and require review.*
 
