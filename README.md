@@ -60,7 +60,8 @@ Bosch · BRQ · Unimed
 | [Playwright Reference Suite](https://github.com/maikonfcosta/playwright-reference-suite) | Reproducible Conduit environment in Docker, E2E and API contract tests. 17 critical tests in ~10 s of total runtime in CI. | Active; evidence in public report and suite docs. |
 | [Failure Classifier](https://github.com/maikonfcosta/failure-classifier) | Deterministic classification of product, environment and test failures. | Controlled benchmark: 20 of 22 failures classified correctly. |
 | [AI CI Triage](https://github.com/maikonfcosta/ai-ci-triage) | Uses failure details, diff and source code to suggest a cause, file and line. | Updates the same PR comment; classifier retains context across iterations. |
-| [QA Playbook](https://github.com/maikonfcosta/qa-playbook) | Pragmatic engineering playbook covering layer strategy, deterministic data isolation, two-layer bug reports, and CI triage patterns built for real teams. | Public repository with practical guidance and checklists. |
+| [QA Playbook](https://github.com/maikonfcosta/qa-playbook) | Pragmatic engineering playbook covering layer strategy, deterministic data isolation, two-layer bug reports, and CI triage patterns built for real teams. | [Live Playbook](https://maikonfcosta.github.io/qa-playbook/) · Public repository with practical guidance and checklists. |
+| [Synthetic Monitoring](https://github.com/maikonfcosta/synthetic-monitoring) | Headless browser probes executing across 4 live production apps, auditing HTTP 200, anti-white-screen DOM rendering, edge latency SLA and zero console errors with automated double-fault incident management. | Public suite · [Demo](https://github.com/maikonfcosta/synthetic-monitoring/blob/main/docs/demo.gif) · Runs 2x daily in GitHub Actions. |
 
 *Project measurements apply to the documented workloads and datasets; they are not guarantees for other applications. AI diagnoses are advisory and require review.*
 
