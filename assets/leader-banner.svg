@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 240" width="100%" height="240" style="background:#0b0f19; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;">
+  <defs>
+    <!-- Background Gradient (Crisp Dark Blue-Gray, Clean Slate) -->
+    <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Stat Pill Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Subtle Dot Pattern -->
+    <pattern id="dotPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect width="1180" height="240" rx="12" fill="url(#bgCanvas)" />
+  <rect width="1180" height="240" rx="12" fill="url(#dotPattern)" />
+  <rect x="0.5" y="0.5" width="1179" height="239" rx="11.5" fill="none" stroke="#1e293b" stroke-width="1" />
+
+  <!-- ==================== LEFT COLUMN: EXECUTIVE SUMMARY ==================== -->
+  <g transform="translate(40, 32)">
+    <!-- Availability Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="24" rx="12" fill="rgba(16, 185, 129, 0.12)" stroke="#10b981" stroke-width="1" />
+      <circle cx="12" cy="12" r="4" fill="#10b981" />
+      <text x="24" y="16" fill="#34d399" font-size="11" font-weight="700" letter-spacing="0.4">OPEN TO SENIOR QA / SDET</text>
+    </g>
+
+    <!-- Candidate Name -->
+    <text x="0" y="58" fill="#f8fafc" font-size="30" font-weight="800" letter-spacing="-0.5">MAIKON COSTA</text>
+    
+    <!-- Exact Positioning Title -->
+    <text x="0" y="84" fill="#38bdf8" font-size="14.5" font-weight="700" letter-spacing="0.2">
+      Senior QA Engineer · Test Automation Lead · RPA Developer
+    </text>
+
+    <!-- Core Value Pitch (3-Second Recruiter Hook) -->
+    <text x="0" y="112" fill="#94a3b8" font-size="12.5" line-height="1.5">
+      Building deterministic quality programs from scratch. Eliminating flaky test suites,
+    </text>
+    <text x="0" y="130" fill="#cbd5e1" font-size="12.5" font-weight="500">
+      reducing defect escape rates by 76%, and delivering fast, trustworthy CI/CD feedback.
+    </text>
+
+    <!-- Key Core Competencies Pills -->
+    <g transform="translate(0, 150)">
+      <g transform="translate(0, 0)">
+        <rect width="144" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="10" y="16" fill="#e2e8f0" font-size="11" font-weight="600">Playwright (TS/Py)</text>
+      </g>
+      <g transform="translate(152, 0)">
+        <rect width="134" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="10" y="16" fill="#e2e8f0" font-size="11" font-weight="600">CI/CD Quality Gates</text>
+      </g>
+      <g transform="translate(294, 0)">
+        <rect width="136" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="10" y="16" fill="#e2e8f0" font-size="11" font-weight="600">Contract &amp; Perf SLA</text>
+      </g>
+      <g transform="translate(438, 0)">
+        <rect width="130" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="10" y="16" fill="#e2e8f0" font-size="11" font-weight="600">Enterprise RPA (8y)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: 4 QUANTIFIED BUSINESS IMPACT TILES ==================== -->
+  <g transform="translate(680, 24)">
+    <!-- Tile 1: Defect Escape -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="88" rx="8" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+      <text x="16" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="0.5">DEFECT ESCAPE RATE</text>
+      <text x="16" y="54" fill="#38bdf8" font-size="22" font-weight="800">83% ➔ 20%</text>
+      <text x="16" y="72" fill="#64748b" font-size="10.5">-76% production bugs at Fluxo</text>
+    </g>
+
+    <!-- Tile 2: Flakiness -->
+    <g transform="translate(222, 0)">
+      <rect width="210" height="88" rx="8" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+      <text x="16" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="0.5">CRITICAL RING FLAKINESS</text>
+      <text x="16" y="54" fill="#10b981" font-size="22" font-weight="800">0% FLAKY</text>
+      <text x="16" y="72" fill="#64748b" font-size="10.5">Zero false positives in CI push</text>
+    </g>
+
+    <!-- Tile 3: CI Tests Scale -->
+    <g transform="translate(0, 98)">
+      <rect width="210" height="88" rx="8" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+      <text x="16" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="0.5">AUTOMATED TEST SCALE</text>
+      <text x="16" y="54" fill="#f8fafc" font-size="22" font-weight="800">~3,400 TESTS</text>
+      <text x="16" y="72" fill="#64748b" font-size="10.5">Across 6 products (Web/API/Data)</text>
+    </g>
+
+    <!-- Tile 4: RPA Cycle Time -->
+    <g transform="translate(222, 98)">
+      <rect width="210" height="88" rx="8" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+      <text x="16" y="24" fill="#94a3b8" font-size="10" font-weight="700" letter-spacing="0.5">PROCESS AUTOMATION (RPA)</text>
+      <text x="16" y="54" fill="#f59e0b" font-size="22" font-weight="800">7d ➔ 1 DAY</text>
+      <text x="16" y="72" fill="#64748b" font-size="10.5">85% speedup in credit insurance</text>
+    </g>
+  </g>
+</svg>
